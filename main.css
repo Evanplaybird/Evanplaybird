@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Evanplay{
+    background-image: url("./Sky.png");
+    display: block;
+    margin: auto;
+}
+#Knowing{
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
