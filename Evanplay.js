@@ -43,11 +43,7 @@ window.onload = function(){
     bottomPipeImg.src = "./Pipe.png";
     requestAnimationFrame(update);
     setInterval(placePipes, 3000);
-    Evanplay.addEventListener("mousedown", upbird1 => {
-        if (upbird1.button == 0){
-            moveBird1 = false;
-        }
-    });
+    Evanplay.addEventListener("mousedown", moveBird2, { once: true });
     Evanplay.addEventListener("mousedown", moveBird);
     game1 = Evanplay.getContext("2d");
 }
@@ -127,6 +123,11 @@ function moveBird(upbird){
             score = 0;
             gameOver = false;
         }
+    }
+}
+function moveBird2(upbird1){
+    if (upbird1.button == 0){
+        moveBird1 = false;
     }
 }
 function detectCollision(a, b) {
