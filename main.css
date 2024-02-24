@@ -4,6 +4,12 @@ h1{
     justify-content: center;
     align-items: center;
 }
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #Evanplay{
     background-image: url("./Sky.png");
     display: block;
@@ -14,10 +20,4 @@ h1{
     display: block;
     margin: auto;
     margin-top: 30px;
-}
-h2{
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
