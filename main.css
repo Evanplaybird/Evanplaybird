@@ -14,6 +14,7 @@ h2{
     background-image: url("Sky.png");
     display: block;
     margin: auto;
+    cursor: pointer;
 }
 #Knowing{
     height: 50px;
