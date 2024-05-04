@@ -1,5 +1,5 @@
 let Evanplay;
-let EvanplayWidth = 900;
+let EvanplayWidth = 800;
 let EvanplayHeight = 720;
 let context;
 let birdWidth = 50;
@@ -83,7 +83,7 @@ function update(){
     if (gameOver){
         game1.fillStyle = "blue";
         game1.font="50px 'Courier New', Courier, monospace";
-        game1.fillText("GAME OVER", 310, 430);
+        game1.fillText("GAME OVER", 280, 430);
     }
 }
 function placePipes(){
