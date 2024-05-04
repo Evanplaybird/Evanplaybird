@@ -12,6 +12,8 @@ h2{
 }
 #Evanplay{
     background-image: url("Sky.png");
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: auto;
     cursor: pointer;
