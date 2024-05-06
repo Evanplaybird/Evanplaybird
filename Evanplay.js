@@ -42,7 +42,7 @@ window.onload = function(){
     bottomPipeImg = new Image();
     bottomPipeImg.src = "./Pipe.png";
     requestAnimationFrame(update);
-    setInterval(placePipes, 3000);
+    setInterval(placePipes, 4500);
     Evanplay.addEventListener("mousedown", moveBird2, { once: true });
     Evanplay.addEventListener("mousedown", moveBird);
     game1 = Evanplay.getContext("2d");
